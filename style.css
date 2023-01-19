@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Smooch&family=Whisper&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  /* gap: 2em; */
+}
+
+#clock {
+  font-family: 'Orbitron', sans-serif;
+  color: #7F8493;
+  font-size: 4em;
+  padding: .5em 2rem;
+  border-radius: 1.5rem;
+  width: 50%;
+  border: none;
+  box-shadow: -10px -10px 20px 5px rgb(255, 255, 255, 0.04), 10px 10px 20px 1px rgb(0, 0, 0, 0.05);
+  transition: 800ms;
+}
+
+.setTimerBtn {
+  padding: .5em .5em;
+  text-align: center;
+  font-size: 2em;
+  border: none;
+  border-radius: 3rem;
+  font-family: 'Josefin sans', sans-serif;
+  background-color: #E5E5E5;
+  color: #7F8493;
+  margin-top: 1em;
+  transition: 0.8s;
+  box-shadow: -10px -10px 20px 5px rgb(255, 255, 255, 0.2), 10px 10px 20px 1px rgb(0, 0, 0, 0.05);
+}
+
+.section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  gap: 1.15em;
+}
+
+.subSection {
+  display: flex;
+  gap: .75em;
+}
+
+
+.timeIntervalInput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #E5E5E5;
+  border-radius: 1rem;
+  height: 3.8rem;
+  font-family: 'Josefin sans', sans-serif;
+  padding-left: .1rem;
+  padding-right: .1rem;
+  width: 3rem;
+  color: #7F8493;
+  font-size: 1.1rem;
+  text-align: center;
+  outline: none;
+  text-align: center;
+  box-shadow: -10px -10px 20px 5px rgb(255, 255, 255, 0.2), 10px 10px 20px 1px rgb(0, 0, 0, 0.05);
+  transition: 200ms ease-in;
+}
+
+.timeIntervalInput:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+  background-color: #7F8493;
+  color: #E5E5E5;
+}
+
+.timeInterval {
+  /* border: 2px solid red; */
+  font-family: 'Josefin sans', sans-serif;
+  color: #7F8493;
+  padding-right: .3em;
+  font-size: 1.2em;
+  align-self: center;
+}
+
+.buttonClicked {
+  transform: scale(0.95);
+  box-Shadow: 10px 10px 20px 5px rgb(255, 255, 255, 0.1), -10px -10px 20px 1px rgb(0, 0, 0, 0.05);
+  background-Color: #E5E5E5;
+  color: #7F8493;
+}
